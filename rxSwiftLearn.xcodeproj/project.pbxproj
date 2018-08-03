@@ -13,6 +13,8 @@
 		B65FE433210AF2F100A0E65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65FE431210AF2F100A0E65A /* Main.storyboard */; };
 		B65FE435210AF2F200A0E65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65FE434210AF2F200A0E65A /* Assets.xcassets */; };
 		B65FE438210AF2F200A0E65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65FE436210AF2F200A0E65A /* LaunchScreen.storyboard */; };
+		B65FE4452112F23900A0E65A /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FE4442112F23900A0E65A /* Speaker.swift */; };
+		B65FE4472112F29E00A0E65A /* SpeakerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65FE4462112F29E00A0E65A /* SpeakerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B65FE434210AF2F200A0E65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65FE437210AF2F200A0E65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B65FE439210AF2F200A0E65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65FE4442112F23900A0E65A /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		B65FE4462112F29E00A0E65A /* SpeakerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			children = (
 				B65FE42D210AF2F100A0E65A /* AppDelegate.swift */,
 				B65FE42F210AF2F100A0E65A /* ViewController.swift */,
+				B65FE4442112F23900A0E65A /* Speaker.swift */,
+				B65FE4462112F29E00A0E65A /* SpeakerListViewModel.swift */,
 				B65FE431210AF2F100A0E65A /* Main.storyboard */,
 				B65FE434210AF2F200A0E65A /* Assets.xcassets */,
 				B65FE436210AF2F200A0E65A /* LaunchScreen.storyboard */,
@@ -220,6 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65FE4472112F29E00A0E65A /* SpeakerListViewModel.swift in Sources */,
+				B65FE4452112F23900A0E65A /* Speaker.swift in Sources */,
 				B65FE430210AF2F100A0E65A /* ViewController.swift in Sources */,
 				B65FE42E210AF2F100A0E65A /* AppDelegate.swift in Sources */,
 			);
